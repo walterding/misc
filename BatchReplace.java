@@ -1,4 +1,4 @@
-//设计了一种批量进行模板替换的方法，是直接进行replace性能的三倍
+//设计了一种批量进行模板替换的方法，性能是直接进行replace的三倍
 
 import java.util.HashMap;
 import java.util.Iterator;
