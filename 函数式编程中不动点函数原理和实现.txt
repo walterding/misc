@@ -78,14 +78,14 @@ return 0
 完成
 
 具体的程序实现如下，因为已经有了函数式，我们要做的就是构建具体的函数
-第一个函子是(s s)
+第一个函数是(s s)
 
 实现如下：
 function normal(s){
 return function() {return s(s)}
 }
 
-第二个函子是
+第二个函数是
 λf.(λs.(f (s s)) )
 
 实现如下：
