@@ -3,14 +3,12 @@
  */
 
 /*
+promise的monads思想实现
 type IO a=(a->Result)->Result
 bindIO m k cont=m(\a -> k a cont)
 unitIO r cont = cont r
 */
 
-/**
- * promise的monads思想实现
- */
 
 class Promise2{
     constructor(f){
