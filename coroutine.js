@@ -2,6 +2,10 @@
  * Created by hinotohui on 17/4/8.
  */
 
+/*
+协程库
+*/
+
 function yieldProcess1(){
     return new Promise((resolve,reject)=>{
         resolve('yield process1');
