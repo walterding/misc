@@ -1,3 +1,4 @@
+//like vuex
 function Store(obj) {
     this.$proto=obj
     this.state={}
