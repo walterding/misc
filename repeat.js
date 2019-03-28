@@ -1,4 +1,8 @@
-// repeat print
+/* 
+repeat print
+lazy,high order,curry
+*/
+
 function print(c) {
     return function () {
         console.log(c)
